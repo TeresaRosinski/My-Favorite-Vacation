@@ -4,13 +4,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:url(images/salishSeaHeader.jpeg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image:url(https://image.shutterstock.com/image-photo/boats-anchored-salish-sea-sunrise-600w-1346647217.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.inner-hero {
+  color:white;
+  font-size: 100px;
+  text-decoration: underline;
 }
 body {
   margin: 0;
   font-family: 'Franklin Gothic Medium';
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  font-size: 50px;
 }
